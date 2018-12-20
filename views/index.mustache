@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 
 <html>
-    {{> partials/scanner-head}}
+    {{> partials/head}}
 
     <body>
+        <!-- Navigation Header -->
         <div class="header">
-            <h3>Barcode Scanner</h3>
+            <div class="header-center"><h3>Barcode Scanner</h3></div>
         </div>
 
         <div class="view">
             <div class="list">
-                <a class="list-item" href="/scanner/bin-count">
+                {{! <a class="list-item" href="/bin-count">
                     <p>Bin Count</p>
                 </a>
 
-                <a class="list-item" href="/scanner/bin-inquiry">
+                <a class="list-item" href="/bin-inquiry">
                     <p>Bin Inquiry</p>
                 </a>
 
-                <a class="list-item" href="/scanner/bin-putaway">
+                <a class="list-item" href="/bin-putaway">
                     <p>Bin Putaway</p>
                 </a>
 
@@ -52,13 +53,13 @@
 
                 <a class="list-item" href="">
                     <p>Sales Order Pick/Pack/Ship</p>
-                </a>
+                </a> }}
 
-                <a class="list-item" href="">
+                <a class="list-item" style="line-height: 40px;" href="/sales-order-picking1">
                     <p>Sales Order Picking</p>
                 </a>
 
-                <a class="list-item" href="">
+                {{! <a class="list-item" href="">
                     <p>Stock Count (Directed)</p>
                 </a>
 
@@ -68,7 +69,7 @@
 
                 <a class="list-item" href="">
                     <p>Transfer Order Receiving (Scan Item)</p>
-                </a>
+                </a> }}
             </div>
         </div>
     </body>

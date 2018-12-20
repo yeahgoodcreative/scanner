@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- Head -->
+    {{> partials/head}}
+
+    <!-- Body -->
+    <body>
+        <!-- Navigation Header -->
+        <div class="header">
+            <a href="/" class="header-left"><h4>Back</h4></a>
+            <div class="header-center"><h3>Bin Count</h3></div>
+            <a href="#" class="header-right"><h4>Submit</h4></a>
+        </div>
+
+        <!-- View -->
+        <div class="view">
+            <br />
+            <form class="form" action="/bin-count" method="post">
+                <p>Bin:</p>
+                <input type="text" name="bin" autofocus>
+            </form>
+        </div>
+    </body>
+</html>

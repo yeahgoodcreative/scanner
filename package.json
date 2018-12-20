@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "mustache-express": "^1.2.8"
+    "mustache-express": "^1.2.8",
+    "xml2js": "^0.4.19"
   }
 }
