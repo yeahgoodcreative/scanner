@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    {{> partials/scanner-head}}
+
+    <body>
+        <div class="header">
+            <h3>Bin Putaway</h3>
+        </div>
+
+        <div class="view">
+            <br />
+            <form class="form" action="/scanner/bin-putaway" method="post">
+                <p>From Bin:</p>
+                <input type="text" name="from-bin" autofocus>
+
+                <br />
+                <br />
+
+                <p>Item:</p>
+                <input type="text" name="item">
+            </form>
+        </div>
+    </body>
+</html>

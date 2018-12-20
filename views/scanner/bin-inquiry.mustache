@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+    {{> partials/scanner-head}}
+
+    <body>
+        <div class="header">
+            <h3>Bin Inquiry</h3>
+        </div>
+
+        <div class="view">
+            <br />
+            <form class="form" action="/scanner/bin-inquiry" method="post">
+                <p>Bin:</p>
+                <input type="text" name="bin" autofocus>
+            </form>
+        </div>
+    </body>
+</html>
